@@ -12,12 +12,16 @@ button, input, select, textarea {
 }
 
 button, input {
-    border-radius: 5px;
     line-height: normal;
 }
 
 label, button, input[type=button], input[type=submit] {
+	border-radius: 5px;
     cursor: pointer;
+}
+
+[data-modal] button {
+	border-radius: 0;
 }
 
 label {
